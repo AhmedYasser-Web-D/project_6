@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #F1BBD5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg-main-color);
+}
+
+.fs-1 {
+  font-size: 3rem;
+}
+.fs-2 {
+  font-size: 2.6rem;
+}
+.fs-3 {
+  font-size: 2.2rem;
+}
+.fs-4 {
+  font-size: 1.8rem;
+}
+.fs-5 {
+  font-size: 1.4rem;
+}
+.fs-6 {
+  font-size: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+.gap-3 {
+  gap: 1rem;
+}
+.gap-4 {
+  gap: 1.5rem;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.pt-3 {
+  padding-top: 1rem;
+}
+.pt-4 {
+  padding-top: 1.5rem;
+}
+.p-3 {
+  padding: 1rem;
+}
+.rounded {
+  border-radius: 0.7rem;
+}
+
+.col-lg-4 {
+  width: 31%;
+}
+.col-lg-6 {
+  width: 48%;
+}
+
+@media (max-width: 991px) {
+  .col-4 {
+    width: 48%;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-6 {
+    width: 48%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}

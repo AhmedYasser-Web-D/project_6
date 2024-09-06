@@ -1,0 +1,32 @@
+.page{
+    background-color:#f1c2d9;
+    /* width: 100vw;
+    height: 100vh; */
+    /* position: relative; */
+}
+.container{
+    background-color: white;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+}
+
+img{
+    width: 200px;
+}
+
+h5{
+    font-family: cursive;
+}
+
+.accordion-body{
+    font-size: small;
+    font-family: cursive;
+    color: #7777;
+}
